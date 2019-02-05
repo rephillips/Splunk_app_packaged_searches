@@ -1,0 +1,29 @@
+{
+    "modelName": "datamodel_test1",
+    "displayName": "datamodel_test1",
+    "description": "",
+    "objectSummary": {
+        "Event-Based": 1,
+        "Transaction-Based": 0,
+        "Search-Based": 0
+    },
+    "objects": [
+        {
+            "objectName": "internal",
+            "displayName": "internal",
+            "parentName": "BaseEvent",
+            "fields": [],
+            "calculations": [],
+            "constraints": [
+                {
+                    "search": "index=_internal",
+                    "owner": "internal"
+                }
+            ],
+            "lineage": "internal"
+        }
+    ],
+    "objectNameList": [
+        "internal"
+    ]
+}
